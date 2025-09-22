@@ -1,0 +1,143 @@
+[
+  {
+    "model": "api.category",
+    "pk": 1,
+    "fields": {
+      "title": "Pizza"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 2,
+    "fields": {
+      "title": "Beverages"
+    }
+  },
+  {
+    "model": "api.category",
+    "pk": 3,
+    "fields": {
+      "title": "Desserts"
+    }
+  },
+
+  { "model": "api.product", "pk": 1,
+    "fields": {
+      "productName": "Margherita",
+      "description": "Classic cheese pizza",
+      "price": "9.99",
+      "picture": "",
+      "category": 1
+    }
+  },
+  { "model": "api.product", "pk": 2,
+    "fields": {
+      "productName": "Pepperoni",
+      "description": "Spicy pepperoni pizza",
+      "price": "11.99",
+      "picture": "",
+      "category": 1
+    }
+  },
+  { "model": "api.product", "pk": 3,
+    "fields": {
+      "productName": "Veggie",
+      "description": "Loaded with fresh veggies",
+      "price": "10.99",
+      "picture": "",
+      "category": 1
+    }
+  },
+  { "model": "api.product", "pk": 4,
+    "fields": {
+      "productName": "BBQ Chicken",
+      "description": "Chicken with BBQ sauce",
+      "price": "12.99",
+      "picture": "",
+      "category": 1
+    }
+  },
+
+  { "model": "api.product", "pk": 5,
+    "fields": {
+      "productName": "Coke",
+      "description": "Chilled Coca Cola",
+      "price": "1.99",
+      "picture": "",
+      "category": 2
+    }
+  },
+  { "model": "api.product", "pk": 6,
+    "fields": {
+      "productName": "Pepsi",
+      "description": "Refreshing Pepsi",
+      "price": "1.89",
+      "picture": "",
+      "category": 2
+    }
+  },
+  { "model": "api.product", "pk": 7,
+    "fields": {
+      "productName": "Orange Juice",
+      "description": "Freshly squeezed orange juice",
+      "price": "2.50",
+      "picture": "",
+      "category": 2
+    }
+  },
+  { "model": "api.product", "pk": 8,
+    "fields": {
+      "productName": "Lemonade",
+      "description": "Homemade lemonade",
+      "price": "2.25",
+      "picture": "",
+      "category": 2
+    }
+  },
+
+  { "model": "api.product", "pk": 9,
+    "fields": {
+      "productName": "Chocolate Cake",
+      "description": "Rich chocolate cake slice",
+      "price": "3.99",
+      "picture": "",
+      "category": 3
+    }
+  },
+  { "model": "api.product", "pk": 10,
+    "fields": {
+      "productName": "Ice Cream",
+      "description": "Vanilla scoop",
+      "price": "2.99",
+      "picture": "",
+      "category": 3
+    }
+  },
+  { "model": "api.product", "pk": 11,
+    "fields": {
+      "productName": "Brownie",
+      "description": "Chewy chocolate brownie",
+      "price": "2.49",
+      "picture": "",
+      "category": 3
+    }
+  },
+  { "model": "api.product", "pk": 12,
+    "fields": {
+      "productName": "Cheesecake",
+      "description": "Classic New York cheesecake",
+      "price": "4.50",
+      "picture": "",
+      "category": 3
+    }
+  },
+  { "model": "api.product", "pk": 13,
+    "fields": {
+      "productName": "Cupcake",
+      "description": "Vanilla cupcake with frosting",
+      "price": "1.75",
+      "picture": "",
+      "category": 3
+    }
+  }
+]
